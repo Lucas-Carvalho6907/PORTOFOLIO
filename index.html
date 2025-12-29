@@ -1,137 +1,115 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lucas Carvalho | Dev Full Stack Júnior</title>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucas Carvalho | Dev Full Stack Júnior</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <div class="bg-glow"></div>
 
-  <!-- ================= HEADER / HERO ================= -->
-  <header class="hero">
-    <div class="hero-content fade-in">
-      <div class="profile-img">
-        <img src="img/perfil.jpg?v=3" alt="Lucas Carvalho">
-      </div>
+    <header>
+        <nav>
+            <div class="logo">LC<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#experience">Experiência</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-      <h1>Lucas Carvalho</h1>
-      <h2>Dev Full Stack Júnior</h2>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content fade-in">
+                <div class="profile-container floating">
+                    <img src="img/perfil.jpg" alt="Lucas Carvalho" class="profile-img">
+                </div>
+                <h1>Olá, eu sou <span>Lucas Carvalho</span></h1>
+                <h2 class="subtitle">Dev Full Stack Júnior</h2>
+                <p class="description">Transformando ideias em experiências digitais imersivas.</p>
+                
+                <div class="hero-socials">
+                    <a href="https://github.com/Lucas-Carvalho6907" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/lucas-carvalho-360b362a0" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/lucascarvalho6907" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="mailto:lucascarvalho27211@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
 
-      <p>
-        Desenvolvedor focado em soluções modernas, performance,
-        boas práticas e evolução contínua.
-      </p>
+        <section id="about" class="section fade-in">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-card">
+                <p>Sou Desenvolvedor Full Stack Júnior, com formação em andamento em Administração e Análise e Desenvolvimento de Sistemas. Tenho experiência com desenvolvimento web, análise de dados e suporte técnico, sempre buscando evolução contínua e boas práticas de código.</p>
+            </div>
+        </section>
 
-      <div class="hero-buttons">
-        <a href="https://github.com/Lucas-Carvalho6907" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/lucas-carvalho-360b362a0" target="_blank">LinkedIn</a>
-        <a href="https://www.instagram.com/lucascarvalho6907" target="_blank">Instagram</a>
-        <a href="mailto:lucascarvalho27211@gmail.com">E-mail</a>
-      </div>
-    </div>
-  </header>
+        <section id="skills" class="section fade-in">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-item"><i class="fab fa-js-square" style="color: #f7df1e;"></i> HTML, CSS, JavaScript</div>
+                <div class="skill-item"><i class="fab fa-python" style="color: #3776ab;"></i> Python, Java, C#</div>
+                <div class="skill-item"><i class="fas fa-database" style="color: #00d4ff;"></i> SQL & Banco de Dados</div>
+                <div class="skill-item"><i class="fas fa-chart-bar" style="color: #00d4ff;"></i> Power BI & Análise de Dados</div>
+                <div class="skill-item"><i class="fas fa-code-branch" style="color: #00d4ff;"></i> Git & Versionamento</div>
+                <div class="skill-item"><i class="fas fa-file-excel" style="color: #217346;"></i> Pacote Office Avançado</div>
+            </div>
+        </section>
 
-  <!-- ================= SOBRE ================= -->
-  <section class="section fade-in">
-    <h3>Sobre Mim</h3>
-    <p>
-      Sou Desenvolvedor Full Stack Júnior, com formação em andamento em
-      Administração e Análise e Desenvolvimento de Sistemas.
-      Tenho experiência com desenvolvimento web, análise de dados
-      e suporte técnico, sempre buscando evolução contínua
-      e boas práticas de código.
-    </p>
-  </section>
+        <section id="experience" class="section fade-in">
+            <h2 class="section-title">Experiência</h2>
+            <div class="exp-card">
+                <div class="exp-header">
+                    <h3>Estágio Administrativo – CRA/AL</h3>
+                    <span class="exp-badge">12 meses</span>
+                </div>
+                <ul class="exp-list">
+                    <li>Suporte aos setores de Fiscalização e Registro.</li>
+                    <li>Organização de documentos e relatórios administrativos.</li>
+                    <li>Atendimento interno e externo.</li>
+                    <li>Apoio nas rotinas administrativas e demandas de cada departamento.</li>
+                </ul>
+            </div>
+            <div class="exp-card">
+                <div class="exp-header">
+                    <h3>Representante de Atendimento – Almaviva Experience</h3>
+                    <span class="exp-badge">8 meses</span>
+                </div>
+                <ul class="exp-list">
+                    <li>Atendimento ao cliente, solucionando dúvidas e prestando suporte técnico.</li>
+                    <li>Registro e acompanhamento de demandas para garantir atendimento eficaz.</li>
+                </ul>
+            </div>
+        </section>
 
-  <!-- ================= HABILIDADES ================= -->
-  <section class="section fade-in">
-    <h3>Habilidades Técnicas</h3>
+        <section id="services" class="section fade-in">
+            <h2 class="section-title">Serviços</h2>
+            <div class="services-grid">
+                <div class="service-item"><i class="fas fa-code"></i> <h3>Sites Institucionais</h3> <p>Criação de presenças digitais sólidas e elegantes.</p> </div>
+                <div class="service-item"><i class="fas fa-user-circle"></i> <h3>Portfólios</h3> <p>Design exclusivo para profissionais de tech.</p> </div>
+                <div class="service-item"><i class="fas fa-database"></i> <h3>Sistemas Web</h3> <p>Integração completa com banco de dados.</p> </div>
+                <div class="service-item"><i class="fas fa-chart-line"></i> <h3>Automação & Dados</h3> <p>Otimização de processos e análise inteligente.</p> </div>
+            </div>
+        </section>
+    </main>
 
-    <div class="grid">
-      <div class="card">HTML, CSS, JavaScript</div>
-      <div class="card">Python, Java, C#</div>
-      <div class="card">SQL & Banco de Dados</div>
-      <div class="card">Power BI & Análise de Dados</div>
-      <div class="card">Git & Versionamento</div>
-      <div class="card">Pacote Office Avançado</div>
-    </div>
-  </section>
+    <footer id="contact" class="footer fade-in">
+        <h2 class="section-title">Contato</h2>
+        <div class="footer-buttons">
+            <a href="https://github.com/Lucas-Carvalho6907" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/lucas-carvalho-360b362a0" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com/lucascarvalho6907" target="_blank">Instagram</a>
+            <a href="mailto:lucascarvalho27211@gmail.com">E-mail</a>
+        </div>
+        <p class="copyright">© 2025 • Lucas Carvalho</p>
+    </footer>
 
-  <!-- ================= EXPERIÊNCIA ================= -->
-  <section class="section fade-in">
-    <h3>Experiência</h3>
-
-    <div class="card experience">
-      <h4>Estágio Administrativo – CRA/AL</h4>
-      <span>12 meses</span>
-      <p>
-        Suporte aos setores de Fiscalização, Registro.
-        </p>
-
-        <p>
-        Organização de documentos e relatórios administrativos.
-        </p>
-
-        <p>
-        Atendimento interno e externo.
-        </p>
-
-        <p>
-        Apoio nas rotinas administrativas e demandas de cada departamento.
-      </p>
-    </div>
-  </section>
-
-  <!-- Almaviva experience -->
-<div class="card experience">
-  <h4>Representante de Atendimento – Almaviva experience</h4>
-  <span>8 meses</span>
-
-  <p>
-    Atendimento ao cliente, solucionando dúvidas e
-    prestando suporte técnico.
-  </p>
-
-  <p>
-    Registro e acompanhamento de demandas para
-    garantir atendimento eficaz.
-  </p>
-</div>
-
-
-  <!-- ================= SERVIÇOS ================= -->
-  <section class="section fade-in">
-    <h3>Serviços</h3>
-
-    <div class="grid">
-      <div class="card">Criação de Sites Institucionais</div>
-      <div class="card">Portfólio Profissional</div>
-      <div class="card">Aplicações Web Simples</div>
-      <div class="card">Integração com Banco de Dados</div>
-      <div class="card">Automação e Análise de Dados</div>
-    </div>
-  </section>
-
-  <!-- ================= CONTATO ================= -->
-  <footer class="footer fade-in">
-    <h3>Contato</h3>
-
-    <div class="footer-buttons">
-      <a href="https://github.com/Lucas-Carvalho6907" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/lucas-carvalho-360b362a0" target="_blank">LinkedIn</a>
-      <a href="https://www.instagram.com/lucascarvalho6907" target="_blank">Instagram</a>
-      <a href="mailto:lucascarvalho27211@gmail.com">E-mail</a>
-    </div>
-
-    <p class="copyright">
-      © 2025 • Lucas Carvalho
-    </p>
-  </footer>
-
-  <!-- JS -->
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
