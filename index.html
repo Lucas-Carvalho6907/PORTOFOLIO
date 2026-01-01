@@ -12,14 +12,18 @@
 
     <header>
         <nav>
-            <div class="logo">LC<span>.</span></div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#skills">Habilidades</a></li>
-                <li><a href="#experience">Experiência</a></li>
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#contact">Contato</a></li>
+            <div class="logo" id="open-menu" style="cursor: pointer;">LC<span>.</span></div>
+            
+            <ul class="nav-links" id="sidebar">
+                <div class="close-btn-container">
+                    <i class="fas fa-times" id="close-menu" style="cursor: pointer;"></i>
+                </div>
+                <li style="--i:1"><a href="#home">Home</a></li>
+                <li style="--i:2"><a href="#about">Sobre</a></li>
+                <li style="--i:3"><a href="#skills">Habilidades</a></li>
+                <li style="--i:4"><a href="#experience">Experiência</a></li>
+                <li style="--i:5"><a href="#services">Serviços</a></li>
+                <li style="--i:6"><a href="#contact">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -44,11 +48,9 @@
         </section>
 
         <section id="about" class="section fade-in">
-            <h2 class="section-title">Sobre Mim</h2>
-            <div class="about-card">
-                <p>Sou Desenvolvedor Full Stack Júnior, com formação em andamento em Administração e Análise e Desenvolvimento de Sistemas. Tenho experiência com desenvolvimento web, análise de dados e suporte técnico, sempre buscando evolução contínua e boas práticas de código.</p>
-            </div>
-        </section>
+    <h2 class="section-title">Sobre Mim</h2>
+    <p>Sou Desenvolvedor Full Stack Júnior, com formação em andamento em Administração e Análise e Desenvolvimento de Sistemas. Tenho experiência com desenvolvimento web, análise de dados e suporte técnico, sempre buscando evolução contínua e boas práticas de código.</p>
+</section>
 
         <section id="skills" class="section fade-in">
             <h2 class="section-title">Habilidades Técnicas</h2>

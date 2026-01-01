@@ -11,6 +11,26 @@ const observer = new IntersectionObserver(entries => {
 
 elements.forEach(el => observer.observe(el));
 
+// Lógica da Sidebar (Novo)
+const openBtn = document.getElementById('open-menu');
+const closeBtn = document.getElementById('close-menu');
+const sidebar = document.getElementById('sidebar');
+
+openBtn.addEventListener('click', () => {
+    sidebar.classList.add('active');
+});
+
+const closeMenu = () => {
+    sidebar.classList.remove('active');
+};
+
+closeBtn.addEventListener('click', closeMenu);
+
+// Fecha o menu ao clicar em qualquer link
+document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', closeMenu);
+});
+
 // Movimento do fundo espacial com o mouse
 document.addEventListener('mousemove', (e) => {
     const glow = document.querySelector('.bg-glow');
